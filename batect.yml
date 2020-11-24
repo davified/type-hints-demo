@@ -25,3 +25,9 @@ tasks:
     run:
       container: python_buster
       command: bin/train-model.sh
+
+  start_jupyter:
+    description: Start jupyter server
+    run:
+      container: python_buster
+      command: bin/start-jupyter.sh

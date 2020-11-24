@@ -34,3 +34,9 @@ Configure your IDE to use the python virtual environment (`./.venv/`) created by
 # train ML model
 ./batect train_model
 ```
+
+## Other things you can do 
+```shell script
+# start jupyter server (if you need it for your workflow)
+./batect start_jupyter
+```
