@@ -24,3 +24,13 @@ bin/non_batect/go.sh
 Configure your IDE to use the python virtual environment (`./.venv/`) created by `go.sh` 
 - [PyCharm instructions](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html#existing-environment)
 - [VS Code instructions](https://code.visualstudio.com/docs/python/environments)
+
+## Tasks that you can run
+
+```shell script
+# run unit tests
+./batect unit_test
+
+# train ML model
+./batect train_model
+```
