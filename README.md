@@ -11,7 +11,8 @@ A template for ML projects, with dependency management made effortless by `batec
 
 ## Setup
 
-Install the dependencies needed by `batect` on your host machine
+Install the dependencies needed by `batect` and your IDE on your host machine
+
 ```shell script
 # mac users
 bin/non_batect/go.sh
@@ -19,3 +20,7 @@ bin/non_batect/go.sh
 # windows / linux
 # work in progress. in the meantime, please install Docker and Java manually if it's not already installed
 ```
+
+Configure your IDE to use the python virtual environment (`./.venv/`) created by `go.sh` 
+- [PyCharm instructions](https://www.jetbrains.com/help/pycharm/creating-virtual-environment.html#existing-environment)
+- [VS Code instructions](https://code.visualstudio.com/docs/python/environments)
