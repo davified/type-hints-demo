@@ -1,13 +1,10 @@
 containers:
   python_buster:
-    image: python:3.9.0-buster
+    build_directory: .
     working_directory: /code
     volumes:
       - local: .
         container: /code
-      - type: cache
-        name: python-dev-dependencies
-        container: /code/.venv-dev
     ports:
       - local: 8888
         container: 8888
